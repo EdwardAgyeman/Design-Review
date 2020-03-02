@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Graphik-Regular";
+    src: url(../fonts/Graphik-Regular.woff);
+}
+@font-face {
+    font-family: "TiemposHeadline-Semibold";
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+@font-face {
+    font-family: "Graphik-Medium";
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+@font-face {
+    font-family: "Theinhardt-Lt";
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+@font-face {
+    font-family: "TiemposHeadline-Semibold.woff";
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+body {margin: 0;}
+a {
+    font-family: "Graphik-Regular";
+    text-decoration: none;
+    color: #323A45;
+}
+a:hover {
+    color: #848484;
+}
+#started {
+    border: black solid 1px;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+ul {
+    padding-left: 0;
+    display: flex;
+}
+li {
+    list-style-type: none;
+    padding-left: 40px;
+}
+header {
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "TiemposHeadline-Semibold";
+    font-size: 1.3rem;
+    margin-top: 16px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+.intro-section h2 {
+    font-family: "Graphik-Regular";
+    text-align: center;
+    margin-top:  50px;
+}
+.intro-section img {
+    width: 100%;
+}
+.intro-section div {
+    margin-top: 60px;
+    font-family: "Graphik-Medium";
+    display: flex;
+    justify-content: center;
+}
+.intro-section div p:first-of-type {
+    margin-right: 80px;
+    width: 40%;
+}
+.intro-section div p:nth-of-type(2) {
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.intro-section div p span {
+    font-family: "Theinhardt-Lt";
+    font-size: 0.8rem;
+    color: #9FA2A7;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+.deliverables {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.deliverables h2{
+    font-family: "TiemposHeadline-Semibold.woff";
+    font-size: 2rem;
+}
+.deliverables h3{
+    font-family: "Graphik-Medium";
+}
+.deliverables p{
+    font-family: "Theinhardt-Lt";
+    color: #9FA2A7;
+}
+.deliverables img{
+    width: 40%;
+}
+.deliverables div{
+    width: 40%;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+.box {
+    background-color: rgb(241, 241, 245);
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box div{
+    width: 40%;
+}
+.box img{
+    width: 40%;
+}
+.box h2 {
+    font-family: "TiemposHeadline-Semibold.woff";
+    font-size: 2rem;
+}
+.box li {
+    font-family: "Theinhardt-Lt";
+    color: #9FA2A7;
+    list-style-type: decimal;
+}
+.box p {
+    font-family: "Theinhardt-Lt";
+    color: #9FA2A7;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+.critique {
+    text-align: center;
+    position: relative;
+}
+.critique h2 {
+    font-family: "TiemposHeadline-Semibold.woff";
+    font-size: 2rem;
+}
+.critique p {
+    font-family: "Theinhardt-Lt";
+    font-size: 1rem;
+    color: #9FA2A7;
+    width: 30%;
+    margin: 30px auto 60px auto;
+}
+.critique p:nth-of-type(2) {
+    text-align: left;
+    position: absolute;
+    top: 470px;
+    left: 350px;
+    font-weight: bold;
+}
+.critique img:nth-of-type(2) {
+    position: absolute;
+    top: 370px;
+    left: 700px;
+    width: 40%;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+footer {
+    margin-top: 250px;
+    text-align: center;
+    position: relative;
+}
+footer hr {
+    width: 80%;
+
+}
+footer h2 {
+    font-family: "TiemposHeadline-Semibold.woff";
+    font-size: 2rem;
+    margin-bottom: 70px;
+}
+footer p {
+    font-family: "Graphik-Medium";
+    font-size: 1rem;
+    color: #9FA2A7;
+}
+footer img {
+    width: 60px;
+    position: absolute;
+    bottom: 1px;
+    left: 500px;
+}
